@@ -1,0 +1,63 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+      position: relative;
+    }
+
+    .banner img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .banner h1 {
+      color: #fff;
+      font-size: 40px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+.content-container {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.application-form {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.social-media-icons {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+.social-media-icons img {
+  width: 40px;
+  margin: 0 10px;
+  filter: invert(100%);
+}
+
